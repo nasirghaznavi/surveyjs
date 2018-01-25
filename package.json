@@ -22,7 +22,7 @@
     "lint": "tslint ./src/**/*.ts -t verbose"
   },
   "version": "1.0.4",
-  "name": "surveyjs",
+  "name": "surveyjs-mod",
   "private": true,
   "devDependencies": {
     "@types/angular": "1.6.2",
