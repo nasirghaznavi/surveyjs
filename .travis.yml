@@ -29,8 +29,6 @@ deploy:
 - provider: script
   script: chmod +x ./deploy_npm.sh && ./deploy_npm.sh
   skip_cleanup: true
-  on:
-    tags: true
 notifications:
   email:
     recipients:
